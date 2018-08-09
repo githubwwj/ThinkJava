@@ -1,4 +1,5 @@
-class ObjectReference //对象引用  类的名字和文字名字是一致的，否则会出错的
+class ObjectReference //类的名字对象引用  
+//类的名字和文字名字是一致的，否则会出错的
 {
 	public static void main(String[] args) //程序入口
 	{
@@ -10,3 +11,4 @@ class ObjectReference //对象引用  类的名字和文字名字是一致的，否则会出错的
 		
 	}
 }
+// https://github.com/githubwwj/ThinkJava
