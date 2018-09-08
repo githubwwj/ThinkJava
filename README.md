@@ -8,7 +8,8 @@
 |3|03_引用操作对象|https://www.iqiyi.com/w_19rzqg8w7d.html|
 |4|04_JAVA基本数据类型1|http://www.iqiyi.com/w_19s1ab0o35.html|
 |5|05_JAVA基本数据类型2|https://www.iqiyi.com/w_19s17wvyy1.html|
-|6|||
+|6|06_JAVA创建新的数据类型和数据成员|https://www.iqiyi.com/w_19s0lld0ud.html|
+|7|07_JAVA啤酒瓶数据成员与外观||
 
 
 
