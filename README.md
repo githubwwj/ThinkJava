@@ -10,6 +10,7 @@
 |5|05_JAVA基本数据类型2|https://www.iqiyi.com/w_19s17wvyy1.html|
 |6|06_JAVA创建新的数据类型和数据成员|https://www.iqiyi.com/w_19s0lld0ud.html|
 |7|07_JAVA啤酒瓶数据成员与外观|https://www.iqiyi.com/w_19s0maj8it.html|
+|8|08_JAVA创建啤酒瓶行为|https://www.iqiyi.com/w_19s0r5n2up.html|
 
 
 
