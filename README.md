@@ -15,7 +15,10 @@
 |10|10_JAVA对象引用别名现象|http://www.iqiyi.com/w_19s1uzzmux.html|
 |11|11_JAVA方法中传递对象|https://www.iqiyi.com/w_19s3czbog1.html|
 |12|12_通过JAVA写一个简单的计算器|https://www.iqiyi.com/w_19s3cyrkql.html|
-|13|||
+|13|13_熟悉JAVA的自动递增和递减|https://www.iqiyi.com/w_19s3edsa79.html|
+|14|14_熟悉JAVA关系操作符|https://www.iqiyi.com/w_19s3edq9d9.html|
+|15|15_JAVA熟悉逻辑操作符||
+
 
 
 
