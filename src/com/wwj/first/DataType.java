@@ -1,3 +1,5 @@
+package com.wwj.first;
+
 class DataType 
 {
 	public static void main(String[] args) 

@@ -1,3 +1,5 @@
+package com.wwj.first;
+
 class Calc 
 {
 	public static void main(String[] args) 

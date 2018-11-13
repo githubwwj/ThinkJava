@@ -1,3 +1,5 @@
+package com.wwj.first;
+
 class BeerBottle //定义一个平酒瓶类
 {
 	int bottom; // 70mm 属性<===>成员变量 <==> 外观  <==> 成员

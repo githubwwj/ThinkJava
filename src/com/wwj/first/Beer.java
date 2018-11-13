@@ -1,3 +1,5 @@
+package com.wwj.first;
+
 class Beer 
 {
 	

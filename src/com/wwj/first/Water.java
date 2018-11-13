@@ -1,3 +1,5 @@
+package com.wwj.first;
+
 import java.util.*; //util包 下面的所有类全部导入进来
 //包相当于Windows 系统的文件夹
 class Water   //文件名和最外边的那个类是一样的

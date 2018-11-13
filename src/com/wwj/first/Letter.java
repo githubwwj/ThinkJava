@@ -1,3 +1,5 @@
+package com.wwj.first;
+
 class Letter //定义信封 
 {
 	char c; //类中的属性 <==>	类中的成员

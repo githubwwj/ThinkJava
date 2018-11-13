@@ -1,3 +1,5 @@
+package com.wwj.first;
+
 class Tank	//坦克
 {
 	int level; //坦克的战斗级别

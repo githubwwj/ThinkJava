@@ -1,3 +1,5 @@
+package com.wwj.first;
+
 class ObjectReference //类的名字对象引用  
 //类的名字和文字名字是一致的，否则会出错的
 {
