@@ -1,34 +1,33 @@
 package com.wwj.first;
 
-class Tank	//Ì¹¿Ë
+/**
+ * èµ‹å€¼æ“ä½œç¬¦
+ */
+class Tank // å¦å…‹
 {
-	int level; //Ì¹¿ËµÄÕ½¶·¼¶±ğ
+	int level; // å¦å…‹çš„æˆ˜æ–—çº§åˆ«
 
-	// ²Ù×÷·û <==>  ÔËËã·û£¬¶¼ÊÇÓÃÀ´²Ù×÷Êı¾İµÄ
+	// æ“ä½œç¬¦ <==> è¿ç®—ç¬¦ï¼Œéƒ½æ˜¯ç”¨æ¥æ“ä½œæ•°æ®çš„
 
-	public static void main(String[] args) 
-	{
-		
-		Tank t1=new Tank(); // t1 Ì¹¿Ë¶ÔÏóµÄÒıÓÃ£¬Í¨¹ınew ¹Ø¼ü×Ö ´´½¨ÁËÒ»¸öÌ¹¿Ë¶ÔÏó£¬¶ÔÏóÔÚ¶ÑÄÚ´æÖĞ
-		// Í¨¹ı¶ÔÏóµÄÒıÓÃ²Ù×÷¶ÔÏó
-		// = ¸³Öµ·ûºÅ  £¬°ÑÌ¹¿Ë¶ÔÏóµÄÒıÓÃ¸³Öµ¸øt1,¾ÍÊÇ°ÑµØÖ·¸³Öµ¸øt1
-		// ²Ù×÷·û + = * / -
+	public static void main(String[] args) {
 
-		t1.level=9;
+		// æ“ä½œç¬¦ç”¨äºæ“ä½œæ•°æ®
+		Tank t1 = new Tank(); // t1 å¦å…‹å¯¹è±¡çš„å¼•ç”¨ï¼Œé€šè¿‡new å…³é”®å­— åˆ›å»ºäº†ä¸€ä¸ªå¦å…‹å¯¹è±¡ï¼Œå¯¹è±¡åœ¨å †å†…å­˜ä¸­
+		// é€šè¿‡å¯¹è±¡çš„å¼•ç”¨æ“ä½œå¯¹è±¡
+		// = èµ‹å€¼ç¬¦å· ï¼ŒæŠŠå¦å…‹å¯¹è±¡çš„å¼•ç”¨èµ‹å€¼ç»™t1,å°±æ˜¯æŠŠåœ°å€èµ‹å€¼ç»™t1
 
-		Tank t2=new Tank();
-		t2.level=47;
+		t1.level = 9;
 
-		System.out.println("t1 level:"+t1.level+"		t2 level:"+t2.level);
+		Tank t2 = new Tank();
+		t2.level = 47;
 
-		t1 = t2;
-		System.out.println("t1 level:"+t1.level+"		t2 level:"+t2.level);
+		System.out.println("1:	t1 level:" + t1.level + "		t2 level:" + t2.level);
 
-		// Õâ¸öÏÖÏó£º¶ÔÏóÒıÓÃ ±ğÃûÏÖÏó
+		t1 = t2;	//t1 æ˜¯ t2å¯¹è±¡çš„ä¸€ä¸ªåˆ«å
+		System.out.println("2:	t1 level:" + t1.level + "		t2 level:" + t2.level);
 
-		t1.level=33;
-		System.out.println("t1 level:"+t1.level+"		t2 level:"+t2.level);
-
+		t1.level = 33;
+		System.out.println("3:	t1 level:" + t1.level + "		t2 level:" + t2.level);
 
 	}
 }

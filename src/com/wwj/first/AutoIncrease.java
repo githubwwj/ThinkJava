@@ -1,5 +1,8 @@
 package com.wwj.first;
 
+/**
+ * 自增自减操作符
+ */
 class  AutoIncrease
 {
 	public static void main(String[] args) 
@@ -10,9 +13,9 @@ class  AutoIncrease
 		//举个列子
 
 		int a=10;
-		System.out.println("a="+a);
+		System.out.println("a="+a);		//10
 
-		//前缀递增
+		//前缀递增	=复制好会把右边的值赋给左边
 		System.out.println("++a ="+ (++a));	// a = a+1   11  先运算，再赋值
 
 		//后缀递增
