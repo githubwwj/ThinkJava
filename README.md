@@ -18,7 +18,10 @@
 |13|13_熟悉JAVA的自动递增和递减|https://www.iqiyi.com/w_19s3edsa79.html|
 |14|14_熟悉JAVA关系操作符|https://www.iqiyi.com/w_19s3edq9d9.html|
 |15|15_JAVA熟悉逻辑操作符|http://www.iqiyi.com/w_19s39wr4xp.html|
-|16|16_复习JAVA语言操作符||
+|16|16_复习JAVA语言操作符|https://www.iqiyi.com/w_19s2uuq15t.html|
+|17|17_三目运算符if和else|https://www.iqiyi.com/w_19s3xs157t.html|
+|18|18_类型转换操作符和截尾与舍入||
+
 
 
 
