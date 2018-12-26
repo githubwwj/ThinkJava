@@ -23,5 +23,6 @@ public class TernaryIfElse {
 			return a * 10;
 		}
 	}
+	
 
 }
