@@ -22,15 +22,13 @@
 |17|17_三目运算符if和else|https://www.iqiyi.com/w_19s3xs157t.html|
 |18|18_类型转换操作符和截尾与舍入||
 |20|20_流程控制语句while和for|https://www.iqiyi.com/w_19s5bv3uhl.html|
-|21|21_流程控制语句switch||
-
-
-
-
+|21|21_流程控制语句switch|https://www.iqiyi.com/w_19s597z955.html|
 
 
 
 
 
 有道云笔记地址<br/>
-http://note.youdao.com/noteshare?id=ae5447cf027cd422593ba711815bc04a  JAVA程序设计零基础<br/>
+http://note.youdao.com/noteshare?id=ae5447cf027cd422593ba711815bc04a  JAVA程序设计零基础一<br/>
+
+http://note.youdao.com/noteshare?id=4386c16c75cbf35b8090f4dafc88f009  JAVA程序设计零基础二<br/>
