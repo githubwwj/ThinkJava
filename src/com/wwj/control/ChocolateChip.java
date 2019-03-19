@@ -4,9 +4,6 @@ import static com.wwj.util.Print.print;
 //extends ¼Ì³Ð
 public class ChocolateChip extends Cookie {
 	
-	float size;
-	float weight;
-	
 	protected void setName(String name) {
 		print(name);
 		this.name = name;
@@ -17,6 +14,7 @@ public class ChocolateChip extends Cookie {
 		
 		ChocolateChip chip=new ChocolateChip();
 		chip.setName("µÂÜ½ÇÉ¿ËÁ¦±ý");
+		chip.bite();
 		
 		print("---"+chip.getName());
 		

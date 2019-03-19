@@ -1,7 +1,8 @@
 package com.wwj.control;
 
 //小甜饼
-public class Cookie {
+ public class Cookie {
+	//public 包访问权限
 	
 	public String name;
 	
