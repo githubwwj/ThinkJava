@@ -3,7 +3,7 @@ package reusing;
 /**
  * Ì«¿Õ´¬¿ØÖÆÆ÷
  */
-public class SpaceControls {
+ final public class SpaceControls {
 
 	// ÏòÇ°
 	public void foward() {

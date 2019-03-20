@@ -1,6 +1,7 @@
 package reusing;
 
 //Ì«¿Õ´¬°üº¬Ì«¿Õ´¬¿ØÖÆÆ÷
-public class SpaceShip extends SpaceControls{
+//extends SpaceControls
+public class SpaceShip {
 
 }

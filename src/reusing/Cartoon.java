@@ -2,8 +2,10 @@ package reusing;
 
 public class Cartoon extends Drawing{
 
+	
+	
 	Cartoon(){
-//		super();
+		super();
 		System.out.println("Cartoon()");
 	}
 	

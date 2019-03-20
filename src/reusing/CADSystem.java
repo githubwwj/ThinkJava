@@ -15,8 +15,10 @@ public class CADSystem extends Shape {
 	public static void main(String[] args) {
 		CADSystem cadSystem = new CADSystem();
 		cadSystem.erase();
+		cadSystem.circle.position(10, 20);
 	}
 
+	//清理和创建正好相反
 	void erase() {
 		System.out.println("-------------");
 		circle.erase();

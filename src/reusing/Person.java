@@ -8,16 +8,16 @@ public class Person {
 	private String name;
 	private int sex;
 	
-	protected String getName() {
+	public String getName() {
 		return name;
 	}
-	protected void setName(String name) {
+	public void setName(String name) {
 		this.name = name;
 	}
-	protected int getSex() {
+	public int getSex() {
 		return sex;
 	}
-	protected void setSex(int sex) {
+	public void setSex(int sex) {
 		this.sex = sex;
 	}
 

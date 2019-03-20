@@ -39,10 +39,8 @@ public class Bath {
 	}
 	
 	public static void main(String[] args) {
-			
 		Bath bath =new Bath();
 		print(bath);
-		
 	}
 
 }

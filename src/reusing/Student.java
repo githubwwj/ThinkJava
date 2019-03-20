@@ -1,5 +1,6 @@
 package reusing;
 
+//继承的是所有的接口
 public class Student extends Person {
 
 	//通过继承可以访问所有的方法
