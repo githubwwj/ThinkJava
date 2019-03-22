@@ -1,0 +1,14 @@
+package polymorphic.actor;
+
+/**
+ * —›‘±
+ */
+public class Actor {
+	
+	/**
+	 * ±Ì—›
+	 */
+	public void act() {
+	}
+
+}
