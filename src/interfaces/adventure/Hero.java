@@ -13,6 +13,19 @@ public class Hero implements CanFly,CanFight,CanSwim {
 		adventure.fly();
 		adventure.fight();
 		adventure.swim();
+		
+//		Hero
+//		swim
+//		Hero
+//		fight
+//		-----------
+//		Student
+//		Student.fly
+//		Student
+//		Student.fight
+//		Student
+//		Student.swim
+
 
 	}
 	

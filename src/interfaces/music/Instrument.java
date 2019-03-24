@@ -10,7 +10,7 @@ public abstract class Instrument {
 	public abstract void adjust(); //µ÷Òô
 	
 	public String what() {
-		return "Instrument";
+		return getClass().getSimpleName();
 	}
 
 }

@@ -7,6 +7,7 @@ public class Wind extends Instrument {
 		System.out.println("Wind.play() "+note);
 	}
 	
+	@Override
 	public void adjust() {
 		System.out.println("Wind.adjust()");
 	}

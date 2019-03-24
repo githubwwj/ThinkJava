@@ -20,4 +20,6 @@ public class Student implements Adventure {
 		System.out.println("Student.swim");
 	}
 
+	
+
 }

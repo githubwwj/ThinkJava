@@ -1,13 +1,13 @@
 package interfaces.shape;
 
 public interface Shape {
-	
-	//»æÖÆ
+
+	// »æÖÆ
 	void draw();
-	
-	//²Á³ý
+
+	// ²Á³ý
 	void erase();
-	
-	 int COUNT = 10;
+
+	int COUNT = 10;
 
 }

@@ -16,5 +16,8 @@ public class Apply {
 		
 	}
 	//A E I O U
+//	a e i o u
+//	[A, E, i, o, u]
+
 
 }

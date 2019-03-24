@@ -3,7 +3,7 @@ package interfaces.factory;
 public class ChessFactory implements GameFactory {
 
 	@Override
-	public Game getGmae() {
+	public Game getGame() {
 		return new Chess();
 	}
 
