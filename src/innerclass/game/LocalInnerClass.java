@@ -12,6 +12,10 @@ public class LocalInnerClass {
 				count ++;
 				return count;
 			}
+
+			@Override
+			public void count() {
+			}
 		}
 		return new MyLocalInnerClass();
 	}
@@ -23,6 +27,10 @@ public class LocalInnerClass {
 			public int next() {
 				count ++;
 				return count;
+			}
+
+			@Override
+			public void count() {
 			}
 		};
 	}

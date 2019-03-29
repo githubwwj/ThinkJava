@@ -21,7 +21,7 @@ public class Sequence {
 	//序列选择器
 	private class SequenceSelector implements Selector {
 
-		////序列选择器的游标
+		//序列选择器的游标
 		private int next = 0;
 
 		@Override

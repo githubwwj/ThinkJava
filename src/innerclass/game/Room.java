@@ -44,7 +44,6 @@ public class Room {
 		mattress.printLength();
 		
 		Table table=new Table();
-		table.getRoomName();
 		System.out.println("RoomName="+table.getRoomName()+
 				"  tableName="+table.getTableName());
 	}
