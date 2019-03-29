@@ -1,21 +1,18 @@
 package holding;
 
-import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.ListIterator;
 
-public class MyPetList {
+public class LinkedListTest {
 
 	public static void main(String[] args) {
-
-		List<Pet> petList = new ArrayList<Pet>();
-
+		List<Pet> petList=new LinkedList<Pet>();
 		petList.add(new Pet("–°÷Ì≈Â∆Ê"));
 		petList.add(new Pet("œ≤—Ú—Ú"));
 		petList.add(new Pet("ª“Ã´¿«"));
-
+		
 		for (Pet p : petList) {
 			System.out.println(p);
 		}
@@ -26,13 +23,13 @@ public class MyPetList {
 		for (int i = 0; i < size; i++) {
 			System.out.println(petList.get(i));
 		}
-
+		
 		Pet pet = petList.get(0);
 		System.out.println("contains=" + petList.contains(pet));
 		petList.remove(pet);
 		int index = petList.indexOf(pet);
 		System.out.println("indexOf=" + index);
-
+		
 		Pet[] petArr = new Pet[petList.size()];
 		petList.toArray(petArr);
 		for (Pet p : petArr) {
@@ -47,7 +44,7 @@ public class MyPetList {
 			Pet p = iterator.next();
 			System.out.println("iterator----" + p);
 		}
-
+		
 		ListIterator<Pet> listIterator = petList.listIterator();
 		while (listIterator.hasNext()) {
 			Pet p = listIterator.next();
@@ -57,7 +54,7 @@ public class MyPetList {
 			Pet p=listIterator.previous();
 			System.out.println("---listiterator-"+p);
 		}
-		
+
 	}
 
 }

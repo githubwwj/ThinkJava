@@ -5,6 +5,14 @@ import java.util.List;
 
 public class Apple extends Fruit {
 	
+	public Apple(String name) {
+		super(name);
+	}
+	
+	public Apple() {
+		super();
+	}
+
 	public static void main(String[] args) {
 //		<类型参数>
 		List<Fruit> apple=new ArrayList<Fruit>();
