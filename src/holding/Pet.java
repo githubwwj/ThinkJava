@@ -3,7 +3,7 @@ package holding;
 /**
  * ³èÎï
  */
-public class Pet extends Object {
+public class Pet extends Object implements Comparable<Pet> {
 
 	private static int count = 0;
 	private final int id = ++count;
@@ -12,6 +12,10 @@ public class Pet extends Object {
 	public Pet(String name) {
 		super();
 		this.name = name;
+	}
+
+	public Pet() {
+		super();
 	}
 
 	@Override
@@ -33,12 +37,23 @@ public class Pet extends Object {
 
 	@Override
 	public boolean equals(Object obj) {
-		if(obj instanceof Pet) {
+		if (obj instanceof Pet) {
 			if (((Pet) obj).id == id) {
 				return true;
 			}
 		}
 		return super.equals(obj);
+	}
+
+	@Override
+	public int compareTo(Pet o) {
+//		if (o.id < id) {
+//			return 1; //ÉýÐò
+//		}
+		if (o.id < id) {
+			return -1; //½µÐò
+		}
+		return 0;
 	}
 
 }
