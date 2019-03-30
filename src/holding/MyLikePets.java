@@ -62,8 +62,7 @@ public class MyLikePets {
 		// HashSet<E>extends AbstractSet<E> extends AbstractCollection<E> implements Set<E>
 //		implements Collection<E> {
 		
-//		TreeSet<E> extends AbstractSet<E>	 extends AbstractCollection<E> implements Set<E>
-//		implements Collection<E> {
+//		TreeSet<E> extends AbstractSet<E>	
 		
 	
 
