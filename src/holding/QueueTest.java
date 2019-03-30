@@ -18,6 +18,7 @@ public class QueueTest {
 		queue.offer("You");
 		queue.offer("!");
 		
+		//优先队列按照自己的默认顺序排序
 		PriorityQueue<String> priorityQueue=
 				new PriorityQueue<String>(queue);
 		

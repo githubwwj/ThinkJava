@@ -11,6 +11,9 @@ import java.util.TreeSet;
 
 public class MyLikePets {
 	
+	//面向接口编程
+	//迭代器 ：遍历打印
+	//通过通过方便遍历
 	public static void display(Iterator<Pet> it) {
 		while(it.hasNext()) {
 			System.out.println(it.next());
@@ -37,6 +40,7 @@ public class MyLikePets {
 		LinkedHashSet<Pet> petsLHS=new LinkedHashSet<Pet>(pets);
 		TreeSet<Pet> petsTS=new TreeSet<Pet>(pets);
 		
+//		implements XXX
 		display(pets.iterator());
 		display(petsLL.iterator());
 		display(petsHS.iterator());
@@ -54,9 +58,11 @@ public class MyLikePets {
 		
 		//ArrayList<E> extends  AbstractList<E> 
 //		extends AbstractCollection<E> implements List<E>
+//		 implements Collection<E> {
 		
 		//LinkedList<E>extends AbstractSequentialList<E> extends
 //		 AbstractList<E> extends AbstractCollection<E> implements List<E>
+//		 implements Collection<E> {
 		
 		//LinkedHashSet<E>extends HashSet<E>
 		// HashSet<E>extends AbstractSet<E> extends AbstractCollection<E> implements Set<E>

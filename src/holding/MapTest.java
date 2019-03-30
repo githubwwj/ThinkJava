@@ -31,6 +31,7 @@ public class MapTest {
 			System.out.println("key=" + key + "   value=" + value);
 //			hashMap.remove(key);
 		}
+		
 		 Set<Map.Entry<Integer,Integer>> set=hashMap.entrySet();
 		 Iterator<Entry<Integer,Integer>> iterator = set.iterator();
 		 while(iterator.hasNext()) {
