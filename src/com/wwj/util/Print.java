@@ -12,5 +12,11 @@ public class Print {
 			System.out.println(obj);
 		}
 	}
+	
+	public static void printnb(Object ...objs) {
+		for(Object obj:objs) {
+			System.out.print(obj);
+		}
+	}
 
 }
