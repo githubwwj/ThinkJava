@@ -4,7 +4,7 @@ public class ArrayFind {
 
 	public static void main(String[] args) {
 		int[] arr = { 18, 20, 21, 24, 25, 26, 30, 90, 180, 999 };
-		int key = 33333;
+		int key = 90;
 		int position = findStudentPostion(arr, key);
 		System.out.println("学生位置=" + position);
 
@@ -16,11 +16,12 @@ public class ArrayFind {
 
 	}
 
+	//折半查找 <==> 二分法查找
 	public static int findStudentPositionBinary(int[] arr, int key) {
 		int head = 0;// 头元素索引
 		int tail = arr.length - 1; // 尾元素索引
 		int mid = (head + tail) / 2;// 中间元素索引
-		int count = 0;
+		int count = 1;
 		while (arr[mid] != key) {
 			if (key > arr[mid]) {
 				head = mid + 1;
@@ -37,7 +38,7 @@ public class ArrayFind {
 		return mid;
 	}
 
-	public static int findStudentPositionBinary_2(int[] arr, int key) {
+	public static int findStudentPositionBinary_2(int[] arr, int stuNo) {
 		int head = 0;// 头元素索引
 		int tail = arr.length - 1; // 尾元素索引
 		int mid = 0;
@@ -45,9 +46,9 @@ public class ArrayFind {
 		while (head <= tail) {
 			count++;
 			mid = (head+tail) >>1; //除以2
-			if(key>arr[mid]) {
+			if(stuNo>arr[mid]) {
 				head=mid+1;
-			}else if(key<arr[mid]) {
+			}else if(stuNo<arr[mid]) {
 				tail = mid-1;
 			}else {
 				System.out.println(String.format("查找了%d次", count));		

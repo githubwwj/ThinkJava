@@ -11,11 +11,13 @@ public class Scale {
 	};
 
 	public static void main(String[] args) {
-		int num = 100;
+		int num = 60;
+		
+		toHex(num);
 		
 		toBinary(num);
+		
 		toOct(num);
-		toHex(num);
 	}
 	
 	private static void toBinary(int num) {

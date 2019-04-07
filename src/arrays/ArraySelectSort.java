@@ -7,7 +7,8 @@ public class ArraySelectSort {
 
 	public static void main(String[] args) {
 
-		int[] arr = { 25, 20, 26, 24, 18, 21, -3, 30, 180, -999, 1230 };
+		int[] arr = { 25, 20, 19,3,26, 24, 18, 21, -3,
+				30, 180, -999, 1230, 62,1180, 12 };
 
 		selectSort(arr);
 
@@ -31,8 +32,8 @@ public class ArraySelectSort {
 	}
 
 	private static void selectSort(int[] arr) {
-		for (int i = 0; i < arr.length; i++) {
-			for (int j = i + 1; j < arr.length; j++) {
+		for (int i = 0; i < arr.length-1; i++) { //控制循环次数
+			for (int j = i + 1; j < arr.length; j++) { //每个元素做比较
 				if (arr[i] > arr[j]) {
 					int temp = arr[i];
 					arr[i] = arr[j];
@@ -43,8 +44,9 @@ public class ArraySelectSort {
 
 	}
 
+	//减少堆内存元素交换次数,提高排序性能
 	private static void selectSort_3(int[] arr) {
-		for (int i = 0; i < arr.length; i++) {
+		for (int i = 0; i < arr.length-1; i++) {
 			int num = arr[i];
 			int index = i;
 			for (int j = i + 1; j < arr.length; j++) {
@@ -59,7 +61,7 @@ public class ArraySelectSort {
 	}
 
 	private static void selectSort_2(int[] arr) {
-		for (int i = 0; i < arr.length; i++) {
+		for (int i = 0; i < arr.length-1; i++) {
 			for (int j = i + 1; j < arr.length; j++) {
 				if (arr[i] < arr[j]) {
 					int temp = arr[i];

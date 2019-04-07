@@ -8,8 +8,9 @@ public class ArrayTwo {
 	public static void main(String[] args) {
 
 		int[][] arr = { { 1, 2 }, { 4, 5, 6, 7 }, { 8, 9, 10 } };
-
+//		二维数组中下标0的一维数组
 		print(arr.length);
+		print(arr);
 
 		print("arr[0][0]=" + arr[0][0]); // 1
 		print("arr[1][3]=" + arr[1][3]); // 7
@@ -35,15 +36,17 @@ public class ArrayTwo {
 			}
 		}
 
-//		arr2[0][0] = 1;
-//		arr2[0][1] = 2;
-//		
-//		arr2[1][0] =4;
-//		arr2[1][1] =5;
-
 		for (int i = 0; i < arr2.length; i++) {
 			for (int j = 0; j < arr2[i].length; j++) {
 				printnb(String.format("第%d行第%d列%d\t", i + 1, j + 1, arr2[i][j]));
+			}
+			print("");
+		}
+		
+		float[][] farr=new float[3][4];
+		for (int i = 0; i < farr.length; i++) {
+			for (int j = 0; j < farr[i].length; j++) {
+				printnb(String.format("第%d行第%d列%f\t", i + 1, j + 1, farr[i][j]));
 			}
 			print("");
 		}
