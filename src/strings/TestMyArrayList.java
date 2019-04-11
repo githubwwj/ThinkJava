@@ -10,6 +10,7 @@ public class TestMyArrayList {
 		myArrayList.add("ÄãºÃ Ïã½¶");
 		myArrayList.add("good");
 		myArrayList.add("food");
+//		myArrayList.add(23);
 		
 		for (int i = 0; i < myArrayList.size(); i++) {
 			print(myArrayList.get(i));
