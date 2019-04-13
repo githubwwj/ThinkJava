@@ -36,7 +36,7 @@ public class Clinet {
 			}
 
 			stringBuilder.append(" and ");
-			
+
 			field = clazz.getDeclaredField("age");
 			if (field.isAnnotationPresent(Column.class)) {
 				Column column = field.getAnnotation(Column.class);
@@ -44,7 +44,7 @@ public class Clinet {
 				stringBuilder.append(column.name() + "=" + column.res());
 			}
 			System.out.println(stringBuilder.toString());
-			
+
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		} catch (NoSuchFieldException e) {
@@ -52,7 +52,6 @@ public class Clinet {
 		} catch (SecurityException e) {
 			e.printStackTrace();
 		}
-		
 
 	}
 

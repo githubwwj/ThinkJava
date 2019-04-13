@@ -4,7 +4,7 @@ package annotatonreflection;
  *  注释不能被其他程序读取 
  */
 @Table("person")
-public class Person {
+public class Person extends Object {
 	//注解的设计目标？
 	//对类做出解释,被其它程序读取,被反射读取
 	@Column(name="name",res="wwj")
@@ -25,8 +25,19 @@ public class Person {
 	public void setAge(int age) {
 		this.age = age;
 	}
+	public Person(String name, int age) {
+		super();
+		this.name = name;
+		this.age = age;
+	}
+	
+	public Person() {
+		super();
+	}
 	
 	//select * from person where age =25 and name='wwj'; 
+	
+	
 	
 
 }
