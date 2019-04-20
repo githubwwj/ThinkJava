@@ -1,0 +1,45 @@
+es) {
+				if (f.isFile()) {
+					// 拷贝文件
+					File destFile = new File(destDir, f.getName());
+					copyFile(f, destFile);
+				} else {
+					// 新目录
+					File newDir = new File(destDir, f.getName());
+					newDir.mkdirs();
+					copyDir(f, newDir);
+				}
+			}
+
+		}
+
+	}
+
+	/**
+	 * // 1 选择数据源 磁盘的一个文件
+	 * 
+	 * @param srcFile  源文件
+	 * @param destFile 目标文件
+	 */
+	public static void copyFile(File srcFile, File destFile) {
+
+		if (!srcFile.exists()) {
+			System.out.println("源文件不存在");
+			return;
+		}
+
+		// 2选择输出流
+		FileInputStream inputStream = null;
+		OutputStream outputStream = null;
+		try {
+			outputStream = new FileOutputStream(destFile);
+			inputStream = new FileInputStream(srcFile);
+
+			// 3 选择那种操作
+			int len = -1;
+			byte[] buff = new byte[1024 * 10];
+			while ((len = inputStream.read(buff)) != -1) {
+				outputStream.write(buff, 0, len);
+			}
+			System.out.println("copy file successed!");
+		
