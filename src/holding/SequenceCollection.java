@@ -36,6 +36,11 @@ public class SequenceCollection extends AbstractCollection<Pet> {
 		while(it.hasNext()) {
 			System.out.println(it.next());
 		}
+		
+		for(Pet p: sequenceCollection) {
+			System.out.println(p);
+		}
+		
 	}
 
 }
