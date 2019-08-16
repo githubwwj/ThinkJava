@@ -1,4 +1,3 @@
-﻿abc hello
 有道云笔记地址<br/>
 http://note.youdao.com/noteshare?id=ae5447cf027cd422593ba711815bc04a  JAVA程序设计零基础一<br/>
 
