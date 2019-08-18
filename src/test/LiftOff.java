@@ -14,16 +14,16 @@ public class LiftOff implements Runnable {
 	}
 
 	public String status() {
-		return "#" + id + "(" + (countDown > 0 ? +countDown : "ignite") + "), ";
+		return "#" + id + "(" + countDown + "), ";
 	}
 
 	public void run() {
-		while (countDown-- > 0) {
+		while (countDown > 0) {
 			System.out.print(status());
-//			--countDown;
+			--countDown;
 			Thread.yield();
 		}
-		System.out.println("#" + id+" launch success!");
+		System.out.println("#" + id+" ignore!");
 
 	}
 

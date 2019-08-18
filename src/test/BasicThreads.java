@@ -6,7 +6,6 @@ public class BasicThreads {
 		Thread thread=new Thread(new LiftOff());
 		thread.start();
 		System.out.println("Waiting for liftoff!");
-//		
 	}
 
 }
